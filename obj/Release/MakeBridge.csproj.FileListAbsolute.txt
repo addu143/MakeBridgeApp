@@ -1,0 +1,15 @@
+D:\projects\Projects\MakeBridge\MakeBridge\bin\MakeBridge.dll
+D:\projects\Projects\MakeBridge\MakeBridge\bin\MakeBridge.pdb
+D:\projects\Projects\MakeBridge\MakeBridge\obj\Release\MakeBridge.csprojResolveAssemblyReference.cache
+D:\projects\Projects\MakeBridge\MakeBridge\obj\Release\MakeBridge.dll
+D:\projects\Projects\MakeBridge\MakeBridge\obj\Release\MakeBridge.pdb
+D:\projects\Projects\MakeBridge\MakeBridge - JSServer\MakeBridge\bin\MakeBridge.dll
+D:\projects\Projects\MakeBridge\MakeBridge - JSServer\MakeBridge\bin\MakeBridge.pdb
+D:\projects\Projects\MakeBridge\MakeBridge - JSServer\MakeBridge\obj\Release\MakeBridge.csprojResolveAssemblyReference.cache
+D:\projects\Projects\MakeBridge\MakeBridge - JSServer\MakeBridge\obj\Release\MakeBridge.dll
+D:\projects\Projects\MakeBridge\MakeBridge - JSServer\MakeBridge\obj\Release\MakeBridge.pdb
+D:\projects\Projects\MakeBridge\MakeBridge - Latest\MakeBridge\bin\MakeBridge.dll
+D:\projects\Projects\MakeBridge\MakeBridge - Latest\MakeBridge\bin\MakeBridge.pdb
+D:\projects\Projects\MakeBridge\MakeBridge - Latest\MakeBridge\obj\Release\MakeBridge.csprojResolveAssemblyReference.cache
+D:\projects\Projects\MakeBridge\MakeBridge - Latest\MakeBridge\obj\Release\MakeBridge.dll
+D:\projects\Projects\MakeBridge\MakeBridge - Latest\MakeBridge\obj\Release\MakeBridge.pdb

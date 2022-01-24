@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+
+        <script type="text/template" id="tmpMakeBridgeContainer">
+             <div id="dialog-Preview" title="Preview Code" style="display: none;">
+        <textarea style="width: 800px; height: 400px;" id="txtPreviewCode"></textarea>
+    </div>
+        <div id="dialog-image" style="display:none;" title="Basic dialog">
+            <table style="width: 400px;">
+                <tr>
+                    <td><Label id="imageLabel" >Image </Label> </td>
+                    <td>
+                        <input type="text" id="txtImageUrl" style="width: 300px;" />
+                    </td>
+                </tr>
+
+
+            </table>
+        </div>
+        <div id="imageDropDialog" style="display:none; position:relative;" title="drop image">
+            <table style="width: 400px;">
+                <tr>                    
+                    <td>                        
+                        <ul class="sortable" style="list-style: none; padding: 0; margin: 0;">
+                            <li>
+                                <img class="sortable" src="images/drop-here.png" style="display:block;" />
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+            </table>
+        </div>
+    <div id="containerOne" style="display: none;">
+        <table class="container" style="min-height:20px; width: 100%;">
+            <tr>
+                <td>
+                    <ul class="sortable" style="list-style: none; padding: 0; margin: 0; min-height:20px;">
+                        
+                    </ul>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="containerTwo" style="display: none;">
+        <table class="container" style="width: 100%; min-height:20px;">
+            <tr>
+                <td>
+                    <ul class="sortable" style="list-style: none; padding: 0; margin: 0; min-height:20px;">
+                       
+                    </ul>
+                </td>
+                <td>
+                    <ul class="sortable" style="list-style: none; padding: 0; margin: 0; min-height:20px;">
+                        
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="containerThree" style="display: none;">
+        <table class="container" style="width: 100%; min-height:20px;">
+            <tr>
+                <td>
+                    <ul class="sortable" style="list-style: none; padding: 0; margin: 0; min-height:20px;">
+                       
+                    </ul>
+                </td>
+                <td>
+                    <ul class="sortable" style="list-style: none; padding: 0; margin: 0; min-height:20px;">
+                      
+                    </ul>
+                </td>
+                <td>
+                    <ul class="sortable" style="list-style: none; padding: 0; margin: 0; min-height:20px;">
+                        
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="containerFour" style="display: none;">
+        <table class="container" style="width: 100%; min-height:20px;">
+            <tr>
+                <td>
+                    <ul class="sortable" style="list-style: none; padding: 0; margin: 0; min-height:20px;">
+                      
+                    </ul>
+                </td>
+                <td>
+                    <ul class="sortable" style="list-style: none; padding: 0; margin: 0; min-height:20px;">
+                        
+                    </ul>
+                </td>
+                <td>
+                    <ul class="sortable" style="list-style: none; padding: 0; margin: 0; min-height:20px;">
+                     
+                    </ul>
+                </td>
+                <td>
+                    <ul class="sortable" style="list-style: none; padding: 0; margin: 0; min-height:20px;">
+                       
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>        
+        <div class="designContainer">
+        <div class="leftControls">
+            <div id="tabs" style="">
+                <ul>
+                    <li style="width: 150px;"><a style="width:150px;" href="#tabs-1"><b>Builds</b></a></li>
+                    <li style="width: 150px;"><a style="width:150px;" href="#tabs-2"><b>Styles</b></a></li>
+                </ul>
+                <div id="tabs-1" style=" width:287px; height:600px;">
+                    <div id="accordin">
+                        <h3 >Building Blocks</h3>
+                        <div id="contentAreaDiv" style="overflow: scroll; width:240px; ">
+                            <h4>Content</h4>
+                            <ul class="controls">
+                                <li class="draggableControl" data-type="text">
+                                    <div class="mb-icon mb-icon-text"></div>
+                                    <div>TEXT</div>
+                                </li>
+                                <li class="draggableControl" data-type="image">
+                                    <div class="mb-icon mb-icon-image"></div>
+                                    IMAGE
+                                </li>
+                                <li class="draggableControl" data-type="textWithImage">
+                                    <div class="mb-icon mb-icon-textImage"></div>
+                                    <div>TEXT/IMAGE</div>
+                                </li>
+                                <li class="draggableControl" data-type="imageWithText">
+                                    <div class="mb-icon mb-icon-imageText"></div>
+                                    <div>IMAGE/TEXT</div>
+                                </li>
+                            </ul>
+                            <h4>Container</h4>
+                            <ul class="controls">
+                                <li class="draggableControl" data-type="oneColumnContainer">
+                                    <div class="mb-icon mb-icon-container"></div>
+                                    1 COLUMNS
+                                </li>
+                                <li class="draggableControl" data-type="twoColumnContainer">
+                                    <div class="mb-icon mb-icon-container"></div>
+                                    2 COLUMNS
+                                </li>
+                                <li class="draggableControl" data-type="threeColumnContainer">
+                                    <div class="mb-icon mb-icon-container"></div>
+                                    3 COLUMNS
+                                </li>
+                                <li class="draggableControl" data-type="fourColumnContainer">
+                                    <div class="mb-icon mb-icon-container"></div>
+                                    4 COLUMNS
+                                </li>
+                            </ul>
+                            <h4>Spacer</h4>
+                                <ul class="controls">
+                                <li class="draggableControl" data-type="spacer5">
+                                    <div class="mb-icon mb-icon-container"></div>
+                                    5 Pixel spacer
+                                </li>
+                                <li class="draggableControl" data-type="spacer10">
+                                    <div class="mb-icon mb-icon-container"></div>
+                                    10 Pixel spacer
+                                </li>
+                                <li class="draggableControl" data-type="spacer15">
+                                    <div class="mb-icon mb-icon-container"></div>
+                                    15 Pixel spacer
+                                </li>
+                                <li class="draggableControl" data-type="spacer20">
+                                    <div class="mb-icon mb-icon-container"></div>
+                                    20 Pixel spacer
+                                </li>
+                            </ul>
+                        </div>
+                        <h3>My Building Blocks</h3>
+                        <div>
+                        </div>
+                        <h3>Image Library</h3>
+						<ul class="controls imageLib">
+							<li class="draggableControl droppedImage" data-type="droppedImage" >
+								<div class="mb-icon" style="background-image:url('images/Chrysanthemum.png');overflow:visible;">								
+									<img src="images/Chrysanthemum.png" style="display:hidden;">
+								</div>
+								Image 1
+							</li>
+							<li class="draggableControl droppedImage" data-type="droppedImage" >
+								<div class="mb-icon" style="background-image:url('images/Desert.png');overflow:visible;">
+									<img src="images/Desert.png" style="display:hidden;">
+								</div>
+								Image 2
+							</li>
+							<li class="draggableControl droppedImage" data-type="droppedImage" >
+								<div class="mb-icon" style="overflow:visible;">
+									<img src="images/Hydrangeas.png" style="display:hidden;">
+								</div>
+								Image 3
+							</li>
+							<li class="draggableControl droppedImage" data-type="droppedImage" >
+								<div class="mb-icon" style="background-image:url('images/Jellyfish.png');overflow:visible;">
+									<img src="images/Jellyfish.png" style="display:hidden;">
+								</div>
+								Image 4
+							</li>
+                        </ul>                        
+                    </div>
+                </div>
+                <div id="tabs-2">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="rightSide">
+            <div class="top">
+                <a href="#" class="orangeButton" onclick="previewCode();">Preview Code</a>
+            </div>
+            <div class="dragArea">
+                <div id="imageTitleDialog" title="Basic dialog">
+                    <table style="width: 400px;">
+                        <tr>
+                            <td><label id="imageTitleLabel" >Image </label> </td>
+                            <td>
+                                <input type="text" id="imageTitleText"  />
+                            </td>
+                        </tr>
+
+
+                    </table>
+                </div>
+             
+            <!--div style="height:100px;width:200px; display:none;"; id="user-toolbar-options">
+		        <a href="#"><i title="Image Align Left" class="icon-align-left"></i></a>
+		        <a href="#"><i title="Image Align Center" class="icon-align-center"></i></a>
+		        <a href="#"><i title="Image Align Right" class="icon-align-right"></i></a>
+		        <a href="#"><i title="Image Title" class="icon-edit"></i></a>
+		        <a href="#"><i class="icon-ban"></i></a>
+	        </!--div-->
+                <div id="imageToolbar" class="imageToolbar-menu">
+                	<ul>
+                    	<li title="Left Align" class="ImageToolbarLeftAlignClass"><a href="#"><img src="images/Image-align-left-icon.png" /></a></li>
+                        <li title="Center Align" class="ImageToolbarCenterAlignClass"><a href="#"><img src="images/Image-align-center-icon.png" /></a></li>
+                        <li title="Right Align" class="ImageToolbarRightAlignClass"><a href="#"><img src="images/Image-align-right-icon.png" /></a></li>
+                        <li title="Set Title" class="ImageToolbarTitleSetClass"><a href="#"><img src="images/Adobe_Premiere_Pro_Title.png" /></a></li>
+                        
+                    </ul>
+                </div>
+                
+               
+            <div id="imageLinkDialog" style="display:none;"></div>
+                <div id="onlyHtmlCont" class="onlyHTMLContainer">
+                    
+                    <!--//[MA] FOR DRAGGING-->
+                    <div id="imageDataSavingObject" style="display:none;"> </div>
+                    <div id="imageToolbarInstance" style="display:none;"> </div>
+                    <ul class="sortable mainContentHtml" style="list-style: none; width:920px; padding: 0; margin: 0;">       
+                                       
+                    </ul>
+
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+        </script>
+
+
+        <link href="css/jquery-ui.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/bootstrap.icons.css" rel="stylesheet" />
+        <link href="css/jquery.toolbars.css" rel="stylesheet" />
+        <script src="scripts/libs/jquery/jquery.js"></script>
+        <script src="scripts/libs/underscore/underscore.js"></script>
+        <script src="scripts/libs/backbone/backbone.js"></script>
+        <script src="scripts/libs/jquery/jquery_ui.js"></script>
+        <script src="scripts/libs/custom/helper_methods.js"></script>
+        <script src="scripts/libs/custom/makebridge_custom_methods.js"></script>
+        <script src="scripts/libs/tinymce/tinymce.js"></script>
+        <script src="scripts/libs/tinymce/tinymce_jquery.js"></script>       
+        <script src="scripts/libs/custom/linq.min.js"></script>
+        <script src="scripts/makebridge_data.js"></script>        
+        <script src="scripts/makebridge.js"></script>
+        
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#myMakeBridge").MakeBridgeEditor();
+            })
+        </script>
+       
+    </head>
+    <body>
+        <div id="myMakeBridge"></div>
+        
+    </body>
+</html>

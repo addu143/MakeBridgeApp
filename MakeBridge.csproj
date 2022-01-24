@@ -1,0 +1,901 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0047E14F-DAC2-49EB-84DF-EC38C43791CA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MakeBridge</RootNamespace>
+    <AssemblyName>MakeBridge</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddLinkScreen.html" />
+    <Content Include="AddUpdateTags.html" />
+    <Content Include="controls.html" />
+    <Content Include="css\bootstrap.icons.css" />
+    <Content Include="css\images\animated-overlay.gif" />
+    <Content Include="css\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="css\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="css\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="css\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="css\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="css\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="css\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="css\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="css\images\ui-icons_222222_256x240.png" />
+    <Content Include="css\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="css\images\ui-icons_454545_256x240.png" />
+    <Content Include="css\images\ui-icons_888888_256x240.png" />
+    <Content Include="css\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\jquery.toolbars.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="ImageLibrary.asmx" />
+    <Content Include="images\10-pixel-spacer.png" />
+    <Content Include="images\15-pxl-spacer.png" />
+    <Content Include="images\1col-ico.png" />
+    <Content Include="images\20-pxl-spacer.png" />
+    <Content Include="images\2col-ico.png" />
+    <Content Include="images\3col-ico.png" />
+    <Content Include="images\4col-ico.png" />
+    <Content Include="images\5-pixel-spacers.png" />
+    <Content Include="images\accordion-arrow.png" />
+    <Content Include="images\add-ico.png" />
+    <Content Include="images\Adobe_Premiere_Pro_Title.png" />
+    <Content Include="images\anchor.png" />
+    <Content Include="images\anchor_1.png" />
+    <Content Include="images\arrow-uploadbox.png" />
+    <Content Include="images\background-ico.png" />
+    <Content Include="images\black-color.png" />
+    <Content Include="images\bold-ico.png" />
+    <Content Include="images\border-placing.png" />
+    <Content Include="images\borders-ico.png" />
+    <Content Include="images\building_block_ico.png" />
+    <Content Include="images\bullet-ico.png" />
+    <Content Include="images\cancel-ico.png" />
+    <Content Include="images\car-img.png" />
+    <Content Include="images\center-align-ico.png" />
+    <Content Include="images\checkbox-background.png" />
+    <Content Include="images\Chrysanthemum.png" />
+    <Content Include="images\color-ico.png" />
+    <Content Include="images\color-pallette.png" />
+    <Content Include="images\color-picker.png" />
+    <Content Include="images\content_ico.png" />
+    <Content Include="images\content_ico_active.png" />
+    <Content Include="images\copy.png" />
+    <Content Include="images\custom-blocks.png" />
+    <Content Include="images\delete-ico.png" />
+    <Content Include="images\delete.png" />
+    <Content Include="images\Desert.png" />
+    <Content Include="images\double_optIn.png" />
+    <Content Include="images\drop-here.png" />
+    <Content Include="images\dynamic-content-ico.png" />
+    <Content Include="images\email-width-ico.png" />
+    <Content Include="images\font-color-ico.png" />
+    <Content Include="images\font-face-ico.png" />
+    <Content Include="images\font-size-ico.png" />
+    <Content Include="images\forward-icon1.gif" />
+    <Content Include="images\forward_to_friend.gif" />
+    <Content Include="images\grey-color.png" />
+    <Content Include="images\grid-ico-hover.png" />
+    <Content Include="images\grid-ico.png" />
+    <Content Include="images\home-ico-hover.png" />
+    <Content Include="images\home-ico.png" />
+    <Content Include="images\html-ico.png" />
+    <Content Include="images\Hydrangeas.png" />
+    <Content Include="images\icon-box.gif" />
+    <Content Include="images\icon-container.png" />
+    <Content Include="images\icon-format.gif" />
+    <Content Include="images\icon-format2.gif" />
+    <Content Include="images\icon-format3.gif" />
+    <Content Include="images\icon-image.png" />
+    <Content Include="images\icon-imageText.png" />
+    <Content Include="images\icon-text.png" />
+    <Content Include="images\icon-textImage.png" />
+    <Content Include="images\icon_alt.gif" />
+    <Content Include="images\icon_globe.gif" />
+    <Content Include="images\Image-align-center-icon.png" />
+    <Content Include="images\Image-align-left-icon.png" />
+    <Content Include="images\Image-align-right-icon.png" />
+    <Content Include="images\image-li-ico.png" />
+    <Content Include="images\image-library-ico.png" />
+    <Content Include="images\img-txt-li-ico.png" />
+    <Content Include="images\img1.png" />
+    <Content Include="images\img2.png" />
+    <Content Include="images\img3.png" />
+    <Content Include="images\img4.png" />
+    <Content Include="images\italic-ico.png" />
+    <Content Include="images\Jellyfish.png" />
+    <Content Include="images\justified-ico.png" />
+    <Content Include="images\Koala.jpg" />
+    <Content Include="images\left-align-ico.png" />
+    <Content Include="images\leftBack.png" />
+    <Content Include="images\li-1-ico.png" />
+    <Content Include="images\line-display-ico.png" />
+    <Content Include="images\link-arrow-hover.png" />
+    <Content Include="images\link-arrow.png" />
+    <Content Include="images\link-Document.png" />
+    <Content Include="images\links-ico.png" />
+    <Content Include="images\list-view--hover-ico.png" />
+    <Content Include="images\list-view-ico.png" />
+    <Content Include="images\loadingGif.gif" />
+    <Content Include="images\mail-ico-hover.png" />
+    <Content Include="images\mail-ico.png" />
+    <Content Include="images\manage-ico.png" />
+    <Content Include="images\mobile-view-ico.png" />
+    <Content Include="images\move.png" />
+    <Content Include="images\move_handle.png" />
+    <Content Include="images\my_building_ico.png" />
+    <Content Include="images\nocolor-ico.png" />
+    <Content Include="images\padding-placing.png" />
+    <Content Include="images\redo-ico.png" />
+    <Content Include="images\right-align-ico.png" />
+    <Content Include="images\safeSender.png" />
+    <Content Include="images\sample.jpg" />
+    <Content Include="images\save-ico.png" />
+    <Content Include="images\search_button.png" />
+    <Content Include="images\search_ico.png" />
+    <Content Include="images\solid.png" />
+    <Content Include="images\special-banner.png" />
+    <Content Include="images\styles_ico.png" />
+    <Content Include="images\styles_ico_active.png" />
+    <Content Include="images\table-ico.png" />
+    <Content Include="images\tag-ico.png" />
+    <Content Include="images\test-ico-hover.png" />
+    <Content Include="images\test-ico.png" />
+    <Content Include="images\text-img-li-ico.png" />
+    <Content Include="images\text-li-ico.png" />
+    <Content Include="images\trans.png" />
+    <Content Include="images\ui-icons_454545_256x240.png" />
+    <Content Include="images\ui-icons_888888_256x240.png" />
+    <Content Include="images\underline-ico.png" />
+    <Content Include="images\undo-ico.png" />
+    <Content Include="images\unsubscribe.png" />
+    <Content Include="images\upload-images\img1.png" />
+    <Content Include="images\upload-images\img2.png" />
+    <Content Include="images\upload-images\img3.png" />
+    <Content Include="images\upload-images\img4.png" />
+    <Content Include="images\upload-img-ico.png" />
+    <Content Include="images\upload-status-bar.png" />
+    <Content Include="images\user-ico.png" />
+    <Content Include="images\view-ico.png" />
+    <Content Include="images\viewInBrowser.png" />
+    <Content Include="index.html" />
+    <Content Include="index_newDesign.html" />
+    <Content Include="NewDesign\css\animate.css" />
+    <Content Include="NewDesign\css\bmsgrid.css" />
+    <Content Include="NewDesign\css\bootstrap.css" />
+    <Content Include="NewDesign\css\calendar.css" />
+    <Content Include="NewDesign\css\changes.css" />
+    <Content Include="NewDesign\css\chosen.css" />
+    <Content Include="NewDesign\css\custom_2.css" />
+    <Content Include="NewDesign\css\icons.css" />
+    <Content Include="NewDesign\css\isotope.css" />
+    <Content Include="NewDesign\css\jquery-ui.css" />
+    <Content Include="NewDesign\css\ol.css" />
+    <Content Include="NewDesign\css\style.css" />
+    <Content Include="NewDesign\css\style_.css" />
+    <Content Include="NewDesign\css\tan_changes.css" />
+    <Content Include="NewDesign\css\ui.daterangepicker.css" />
+    <Content Include="NewDesign\editorcss\editorstyle.css" />
+    <Content Include="NewDesign\editorcss\reset.css" />
+    <Content Include="NewDesign\editorcss\skin.css" />
+    <Content Include="NewDesign\editorcss\style.css" />
+    <Content Include="NewDesign\fonts\fonts.css" />
+    <Content Include="NewDesign\fonts\proximanova-bold-webfont.svg" />
+    <Content Include="NewDesign\fonts\proximanova-light-demo.html" />
+    <Content Include="NewDesign\fonts\proximanova-light-webfont.svg" />
+    <Content Include="NewDesign\fonts\proximanova-regular-demo.html" />
+    <Content Include="NewDesign\fonts\proximanova-regular-webfont.svg" />
+    <Content Include="NewDesign\fonts\proximanova-semibold-demo.html" />
+    <Content Include="NewDesign\fonts\proximanova-semibold-webfont.svg" />
+    <Content Include="NewDesign\images\add.png" />
+    <Content Include="NewDesign\images\arrow-up-down.png" />
+    <Content Include="NewDesign\images\arrowdown.png" />
+    <Content Include="NewDesign\images\arrowright.png" />
+    <Content Include="NewDesign\images\bold.png" />
+    <Content Include="NewDesign\images\brdrbtm.png" />
+    <Content Include="NewDesign\images\brdrlft.png" />
+    <Content Include="NewDesign\images\brdrrgt.png" />
+    <Content Include="NewDesign\images\brdrtop.png" />
+    <Content Include="NewDesign\images\build.png" />
+    <Content Include="NewDesign\images\check.png" />
+    <Content Include="NewDesign\images\checked.png" />
+    <Content Include="NewDesign\images\closebtn-blue.png" />
+    <Content Include="NewDesign\images\closeicon.png" />
+    <Content Include="NewDesign\images\col1.png" />
+    <Content Include="NewDesign\images\col2.png" />
+    <Content Include="NewDesign\images\col3.png" />
+    <Content Include="NewDesign\images\col4.png" />
+    <Content Include="NewDesign\images\copy.png" />
+    <Content Include="NewDesign\images\cross.png" />
+    <Content Include="NewDesign\images\delete.png" />
+    <Content Include="NewDesign\images\edit.png" />
+    <Content Include="NewDesign\images\edit2.png" />
+    <Content Include="NewDesign\images\emaillink.png" />
+    <Content Include="NewDesign\images\filter.png" />
+    <Content Include="NewDesign\images\frwrdfriend.png" />
+    <Content Include="NewDesign\images\greenloader.gif" />
+    <Content Include="NewDesign\images\homelink.png" />
+    <Content Include="NewDesign\images\image.png" />
+    <Content Include="NewDesign\images\imgtxt.png" />
+    <Content Include="NewDesign\images\info.png" />
+    <Content Include="NewDesign\images\info2.png" />
+    <Content Include="NewDesign\images\libimg.jpg" />
+    <Content Include="NewDesign\images\link.png" />
+    <Content Include="NewDesign\images\link2.png" />
+    <Content Include="NewDesign\images\list.png" />
+    <Content Include="NewDesign\images\listchecked.png" />
+    <Content Include="NewDesign\images\meeicons.png" />
+    <Content Include="NewDesign\images\more.png" />
+    <Content Include="NewDesign\images\move.png" />
+    <Content Include="NewDesign\images\newanchlink.png" />
+    <Content Include="NewDesign\images\padbtm.png" />
+    <Content Include="NewDesign\images\padlft.png" />
+    <Content Include="NewDesign\images\padrgt.png" />
+    <Content Include="NewDesign\images\padtop.png" />
+    <Content Include="NewDesign\images\pallete.png" />
+    <Content Include="NewDesign\images\pattern.png" />
+    <Content Include="NewDesign\images\plus.png" />
+    <Content Include="NewDesign\images\save.png" />
+    <Content Include="NewDesign\images\search.png" />
+    <Content Include="NewDesign\images\styles.png" />
+    <Content Include="NewDesign\images\tag.png" />
+    <Content Include="NewDesign\images\text.png" />
+    <Content Include="NewDesign\images\txtimg.png" />
+    <Content Include="NewDesign\images\unchecked.png" />
+    <Content Include="NewDesign\images\unsubslink.png" />
+    <Content Include="NewDesign\images\upload.png" />
+    <Content Include="NewDesign\images\vbrsrlink.png" />
+    <Content Include="NewDesign\img\account.png" />
+    <Content Include="NewDesign\img\act.png" />
+    <Content Include="NewDesign\img\actfeed.png" />
+    <Content Include="NewDesign\img\actfeed2.png" />
+    <Content Include="NewDesign\img\add.png" />
+    <Content Include="NewDesign\img\alert.png" />
+    <Content Include="NewDesign\img\alert2.png" />
+    <Content Include="NewDesign\img\alertbot.png" />
+    <Content Include="NewDesign\img\amy.jpg" />
+    <Content Include="NewDesign\img\andrew.jpg" />
+    <Content Include="NewDesign\img\arrow-down.png" />
+    <Content Include="NewDesign\img\arrow-up-down.png" />
+    <Content Include="NewDesign\img\arrows.png" />
+    <Content Include="NewDesign\img\articleclick.png" />
+    <Content Include="NewDesign\img\avatar-big.png" />
+    <Content Include="NewDesign\img\avatar.png" />
+    <Content Include="NewDesign\img\back.png" />
+    <Content Include="NewDesign\img\block.png" />
+    <Content Include="NewDesign\img\brad.jpg" />
+    <Content Include="NewDesign\img\builtin.png" />
+    <Content Include="NewDesign\img\calender.png" />
+    <Content Include="NewDesign\img\campaign.png" />
+    <Content Include="NewDesign\img\campaignopen.png" />
+    <Content Include="NewDesign\img\campaigns.png" />
+    <Content Include="NewDesign\img\campaignsent.png" />
+    <Content Include="NewDesign\img\caution-icon.png" />
+    <Content Include="NewDesign\img\caution.png" />
+    <Content Include="NewDesign\img\chanel--signup1.jpg" />
+    <Content Include="NewDesign\img\chat.png" />
+    <Content Include="NewDesign\img\chat2.png" />
+    <Content Include="NewDesign\img\check.png" />
+    <Content Include="NewDesign\img\checkicons.png" />
+    <Content Include="NewDesign\img\checkiconsbig.png" />
+    <Content Include="NewDesign\img\clicked.png" />
+    <Content Include="NewDesign\img\clock.png" />
+    <Content Include="NewDesign\img\closebtn-blue.png" />
+    <Content Include="NewDesign\img\closebtn.png" />
+    <Content Include="NewDesign\img\closeicon.png" />
+    <Content Include="NewDesign\img\connection.png" />
+    <Content Include="NewDesign\img\connector.png" />
+    <Content Include="NewDesign\img\conversion_large.png" />
+    <Content Include="NewDesign\img\copy.png" />
+    <Content Include="NewDesign\img\copy24.png" />
+    <Content Include="NewDesign\img\copycamp.png" />
+    <Content Include="NewDesign\img\copycampaign.png" />
+    <Content Include="NewDesign\img\coursecorrect.png" />
+    <Content Include="NewDesign\img\create48.png" />
+    <Content Include="NewDesign\img\create_campaign.png" />
+    <Content Include="NewDesign\img\cross.png" />
+    <Content Include="NewDesign\img\cross2.png" />
+    <Content Include="NewDesign\img\csv.jpg" />
+    <Content Include="NewDesign\img\csv.png" />
+    <Content Include="NewDesign\img\custom-temp.png" />
+    <Content Include="NewDesign\img\customicon.png" />
+    <Content Include="NewDesign\img\customicon1.png" />
+    <Content Include="NewDesign\img\customicon2.png" />
+    <Content Include="NewDesign\img\date.png" />
+    <Content Include="NewDesign\img\datebot.png" />
+    <Content Include="NewDesign\img\ddicon.png" />
+    <Content Include="NewDesign\img\delete.png" />
+    <Content Include="NewDesign\img\delete48.png" />
+    <Content Include="NewDesign\img\direct-arrow.png" />
+    <Content Include="NewDesign\img\directmailbot.png" />
+    <Content Include="NewDesign\img\divider.png" />
+    <Content Include="NewDesign\img\droparrow.png" />
+    <Content Include="NewDesign\img\dropbox.jpg" />
+    <Content Include="NewDesign\img\edit.png" />
+    <Content Include="NewDesign\img\edit2.png" />
+    <Content Include="NewDesign\img\edit48.png" />
+    <Content Include="NewDesign\img\editortile.png" />
+    <Content Include="NewDesign\img\editpro.png" />
+    <Content Include="NewDesign\img\editpro2.png" />
+    <Content Include="NewDesign\img\error.png" />
+    <Content Include="NewDesign\img\favicon.ico" />
+    <Content Include="NewDesign\img\featured.png" />
+    <Content Include="NewDesign\img\featured2.png" />
+    <Content Include="NewDesign\img\filter.jpg" />
+    <Content Include="NewDesign\img\filter.png" />
+    <Content Include="NewDesign\img\filters.png" />
+    <Content Include="NewDesign\img\filters2.png" />
+    <Content Include="NewDesign\img\filter_select.png" />
+    <Content Include="NewDesign\img\flame.png" />
+    <Content Include="NewDesign\img\flame2.png" />
+    <Content Include="NewDesign\img\ftpbot.png" />
+    <Content Include="NewDesign\img\glyphicons-halflings.png" />
+    <Content Include="NewDesign\img\gmail.jpg" />
+    <Content Include="NewDesign\img\green%402x.png" />
+    <Content Include="NewDesign\img\greenloader.gif" />
+    <Content Include="NewDesign\img\gsprite.png" />
+    <Content Include="NewDesign\img\headinfo.png" />
+    <Content Include="NewDesign\img\headinfo2.png" />
+    <Content Include="NewDesign\img\hide.png" />
+    <Content Include="NewDesign\img\highrise.jpg" />
+    <Content Include="NewDesign\img\hr-sprite.png" />
+    <Content Include="NewDesign\img\HTML-Editor.png" />
+    <Content Include="NewDesign\img\html.png" />
+    <Content Include="NewDesign\img\htmleditor.png" />
+    <Content Include="NewDesign\img\icon-map.png" />
+    <Content Include="NewDesign\img\icon.png" />
+    <Content Include="NewDesign\img\icondown.png" />
+    <Content Include="NewDesign\img\icondownw.png" />
+    <Content Include="NewDesign\img\iconup.png" />
+    <Content Include="NewDesign\img\iconupw.png" />
+    <Content Include="NewDesign\img\images-white.png" />
+    <Content Include="NewDesign\img\importrep.png" />
+    <Content Include="NewDesign\img\info.png" />
+    <Content Include="NewDesign\img\info2.png" />
+    <Content Include="NewDesign\img\inicon.png" />
+    <Content Include="NewDesign\img\inicon2.png" />
+    <Content Include="NewDesign\img\inputicons.png" />
+    <Content Include="NewDesign\img\instantimport.png" />
+    <Content Include="NewDesign\img\Landing.png" />
+    <Content Include="NewDesign\img\linkedin.jpg" />
+    <Content Include="NewDesign\img\linkedin.png" />
+    <Content Include="NewDesign\img\list.png" />
+    <Content Include="NewDesign\img\list2.png" />
+    <Content Include="NewDesign\img\listicon.png" />
+    <Content Include="NewDesign\img\lists.jpg" />
+    <Content Include="NewDesign\img\lists.png" />
+    <Content Include="NewDesign\img\lists_select.png" />
+    <Content Include="NewDesign\img\loading.gif" />
+    <Content Include="NewDesign\img\logo.png" />
+    <Content Include="NewDesign\img\mail.png" />
+    <Content Include="NewDesign\img\mail2.png" />
+    <Content Include="NewDesign\img\mailbot.png" />
+    <Content Include="NewDesign\img\mailicon.png" />
+    <Content Include="NewDesign\img\mbaction.png" />
+    <Content Include="NewDesign\img\mcrm.png" />
+    <Content Include="NewDesign\img\mergeicon.png" />
+    <Content Include="NewDesign\img\messageclick.png" />
+    <Content Include="NewDesign\img\messageopen.png" />
+    <Content Include="NewDesign\img\messagesent.png" />
+    <Content Include="NewDesign\img\mlists.png" />
+    <Content Include="NewDesign\img\mlists2.png" />
+    <Content Include="NewDesign\img\mobile-hover.png" />
+    <Content Include="NewDesign\img\mobile.png" />
+    <Content Include="NewDesign\img\morebtn.png" />
+    <Content Include="NewDesign\img\msdynamics.jpg" />
+    <Content Include="NewDesign\img\mworkflows.png" />
+    <Content Include="NewDesign\img\myc2y.png" />
+    <Content Include="NewDesign\img\myhtml.png" />
+    <Content Include="NewDesign\img\myimports.png" />
+    <Content Include="NewDesign\img\navbg.png" />
+    <Content Include="NewDesign\img\navdivider.png" />
+    <Content Include="NewDesign\img\netsuite-logo.jpg" />
+    <Content Include="NewDesign\img\netsuite.jpg" />
+    <Content Include="NewDesign\img\netsuite.png" />
+    <Content Include="NewDesign\img\newsletter-full.jpg" />
+    <Content Include="NewDesign\img\newsletter.jpg" />
+    <Content Include="NewDesign\img\newwin.png" />
+    <Content Include="NewDesign\img\next.png" />
+    <Content Include="NewDesign\img\notifi.png" />
+    <Content Include="NewDesign\img\ns-icon.png" />
+    <Content Include="NewDesign\img\nsicon.png" />
+    <Content Include="NewDesign\img\nsicon2.png" />
+    <Content Include="NewDesign\img\pageviews.png" />
+    <Content Include="NewDesign\img\pause.png" />
+    <Content Include="NewDesign\img\peeringicon.png" />
+    <Content Include="NewDesign\img\peerwizard.png" />
+    <Content Include="NewDesign\img\phonebot.png" />
+    <Content Include="NewDesign\img\piechart.png" />
+    <Content Include="NewDesign\img\play.png" />
+    <Content Include="NewDesign\img\plus.png" />
+    <Content Include="NewDesign\img\pointer.png" />
+    <Content Include="NewDesign\img\ppicons.png" />
+    <Content Include="NewDesign\img\ppicons2.png" />
+    <Content Include="NewDesign\img\preview.png" />
+    <Content Include="NewDesign\img\preview2.png" />
+    <Content Include="NewDesign\img\preview24.png" />
+    <Content Include="NewDesign\img\preview3.png" />
+    <Content Include="NewDesign\img\preview48.png" />
+    <Content Include="NewDesign\img\previewselect.png" />
+    <Content Include="NewDesign\img\progress-nav.png" />
+    <Content Include="NewDesign\img\progress-navbg.png" />
+    <Content Include="NewDesign\img\recepients.png" />
+    <Content Include="NewDesign\img\recurring.gif" />
+    <Content Include="NewDesign\img\recurring2.GIF" />
+    <Content Include="NewDesign\img\report.png" />
+    <Content Include="NewDesign\img\report2.png" />
+    <Content Include="NewDesign\img\returnpath.png" />
+    <Content Include="NewDesign\img\rightarrow.png" />
+    <Content Include="NewDesign\img\rings.png" />
+    <Content Include="NewDesign\img\salesforce-logo.jpg" />
+    <Content Include="NewDesign\img\salesforce.jpg" />
+    <Content Include="NewDesign\img\salesforce.png" />
+    <Content Include="NewDesign\img\sample.jpg" />
+    <Content Include="NewDesign\img\save.png" />
+    <Content Include="NewDesign\img\saved.png" />
+    <Content Include="NewDesign\img\schedule.png" />
+    <Content Include="NewDesign\img\scheduledicon.png" />
+    <Content Include="NewDesign\img\schexport.png" />
+    <Content Include="NewDesign\img\schimport.png" />
+    <Content Include="NewDesign\img\score.png" />
+    <Content Include="NewDesign\img\score2.png" />
+    <Content Include="NewDesign\img\scorechange.png" />
+    <Content Include="NewDesign\img\scrollbg.png" />
+    <Content Include="NewDesign\img\search.png" />
+    <Content Include="NewDesign\img\segment.png" />
+    <Content Include="NewDesign\img\segment2.png" />
+    <Content Include="NewDesign\img\segmenticon.png" />
+    <Content Include="NewDesign\img\sendmail.png" />
+    <Content Include="NewDesign\img\sendmail2.png" />
+    <Content Include="NewDesign\img\setting.png" />
+    <Content Include="NewDesign\img\settings.png" />
+    <Content Include="NewDesign\img\settings2.png" />
+    <Content Include="NewDesign\img\setup.png" />
+    <Content Include="NewDesign\img\sf-icon - Copy.png" />
+    <Content Include="NewDesign\img\sf-icon-s.png" />
+    <Content Include="NewDesign\img\sf-icon.png" />
+    <Content Include="NewDesign\img\sficon.png" />
+    <Content Include="NewDesign\img\sficon2.png" />
+    <Content Include="NewDesign\img\sficon3.png" />
+    <Content Include="NewDesign\img\SF_plus.png" />
+    <Content Include="NewDesign\img\shadow-btm.png" />
+    <Content Include="NewDesign\img\shadow-top.png" />
+    <Content Include="NewDesign\img\shugarcrm.jpg" />
+    <Content Include="NewDesign\img\sidenav.png" />
+    <Content Include="NewDesign\img\signup.png" />
+    <Content Include="NewDesign\img\signupform.png" />
+    <Content Include="NewDesign\img\smsbot.png" />
+    <Content Include="NewDesign\img\socfeed.png" />
+    <Content Include="NewDesign\img\socfeed2.png" />
+    <Content Include="NewDesign\img\social-icons.png" />
+    <Content Include="NewDesign\img\social.png" />
+    <Content Include="NewDesign\img\social2.png" />
+    <Content Include="NewDesign\img\spinner-medium.gif" />
+    <Content Include="NewDesign\img\sprite.png" />
+    <Content Include="NewDesign\img\star.png" />
+    <Content Include="NewDesign\img\stripes.png" />
+    <Content Include="NewDesign\img\subscribe.png" />
+    <Content Include="NewDesign\img\subscribers.png" />
+    <Content Include="NewDesign\img\subscribersicon.png" />
+    <Content Include="NewDesign\img\success.png" />
+    <Content Include="NewDesign\img\suppress.png" />
+    <Content Include="NewDesign\img\suppressed.png" />
+    <Content Include="NewDesign\img\tag.jpg" />
+    <Content Include="NewDesign\img\tag.png" />
+    <Content Include="NewDesign\img\tagbot.png" />
+    <Content Include="NewDesign\img\tags.png" />
+    <Content Include="NewDesign\img\target.png" />
+    <Content Include="NewDesign\img\targets.jpg" />
+    <Content Include="NewDesign\img\targets.png" />
+    <Content Include="NewDesign\img\tellafriend.png" />
+    <Content Include="NewDesign\img\template.png" />
+    <Content Include="NewDesign\img\templateimg.png" />
+    <Content Include="NewDesign\img\text.png" />
+    <Content Include="NewDesign\img\texture.jpg" />
+    <Content Include="NewDesign\img\thumb.png" />
+    <Content Include="NewDesign\img\time.png" />
+    <Content Include="NewDesign\img\time2.png" />
+    <Content Include="NewDesign\img\togglebtn.png" />
+    <Content Include="NewDesign\img\trans-gradient.png" />
+    <Content Include="NewDesign\img\trans.png" />
+    <Content Include="NewDesign\img\trans_gray.png" />
+    <Content Include="NewDesign\img\trans_white.png" />
+    <Content Include="NewDesign\img\unsubscribe.png" />
+    <Content Include="NewDesign\img\unsubscribed.png" />
+    <Content Include="NewDesign\img\update.png" />
+    <Content Include="NewDesign\img\usetemplate.png" />
+    <Content Include="NewDesign\img\video.png" />
+    <Content Include="NewDesign\img\visits.png" />
+    <Content Include="NewDesign\img\vr-divider.png" />
+    <Content Include="NewDesign\img\webstats.png" />
+    <Content Include="NewDesign\img\webvisit.png" />
+    <Content Include="NewDesign\img\workflow.png" />
+    <Content Include="NewDesign\img\workflow2.png" />
+    <Content Include="NewDesign\img\workflowalert.png" />
+    <Content Include="NewDesign\img\workflowc2y.png" />
+    <Content Include="NewDesign\img\zoho.jpg" />
+    <Content Include="NewDesign\index.aspx" />
+    <Content Include="NewDesign\index_newDesign.html" />
+    <Content Include="NewDesign\js\bootstrap.js" />
+    <Content Include="NewDesign\js\bootstrap.min.js" />
+    <Content Include="NewDesign\js\chosen.jquery.js" />
+    <Content Include="NewDesign\js\chosen.jquery.min.js" />
+    <Content Include="NewDesign\js\data.js" />
+    <Content Include="NewDesign\js\date.js" />
+    <Content Include="NewDesign\js\daterangepicker.jQuery.js" />
+    <Content Include="NewDesign\js\daterangepicker.jQuery.min.js" />
+    <Content Include="NewDesign\js\jquery-1.7.2.min.js" />
+    <Content Include="NewDesign\js\jquery-1.9.1.min.js" />
+    <Content Include="NewDesign\js\jquery.calendario.js" />
+    <Content Include="NewDesign\js\jquery.icheck.min.js" />
+    <Content Include="NewDesign\js\jquery.isotope.js" />
+    <Content Include="NewDesign\js\jquery.isotope.min.js" />
+    <Content Include="NewDesign\js\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="NewDesign\js\jquery.mCustomScrollbar.min.js" />
+    <Content Include="NewDesign\js\jquery.mousewheel.min.js" />
+    <Content Include="NewDesign\js\jquery.tinymce.min.js" />
+    <Content Include="NewDesign\js\modernizr.custom.63321.js" />
+    <Content Include="NewDesign\js\script.js" />
+    <Content Include="NewDesign\js\tinymce.min.js" />
+    <Content Include="NewDesign\scripts\Copy of makebridge.js" />
+    <Content Include="NewDesign\scripts\libs\backbone\backbone.js" />
+    <Content Include="NewDesign\scripts\libs\custom\helper_methods.js" />
+    <Content Include="NewDesign\scripts\libs\custom\linq.min.js" />
+    <Content Include="NewDesign\scripts\libs\custom\MakeBridgeUndoRedoManager.js" />
+    <Content Include="NewDesign\scripts\libs\custom\makebridge_custom_methods.js" />
+    <Content Include="NewDesign\scripts\libs\jquery\jquery.js" />
+    <Content Include="NewDesign\scripts\libs\jquery\jquery_ui.js" />
+    <Content Include="NewDesign\scripts\libs\miniColor\jquery.minicolors.css" />
+    <Content Include="NewDesign\scripts\libs\miniColor\jquery.minicolors.js" />
+    <Content Include="NewDesign\scripts\libs\miniColor\jquery.minicolors.min.js" />
+    <Content Include="NewDesign\scripts\libs\miniColor\jquery.minicolors.png" />
+    <Content Include="NewDesign\scripts\libs\tinymce\license.txt" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\advlist\plugin.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\advlist\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\anchor\plugin.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\anchor\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\autolink\plugin.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\autolink\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\autoresize\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\autosave\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\bbcode\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\charmap\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\code\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\contextmenu\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\directionality\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\emoticons\img\smiley-cool.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\emoticons\img\smiley-cry.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\emoticons\img\smiley-embarassed.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\emoticons\img\smiley-foot-in-mouth.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\emoticons\img\smiley-frown.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\emoticons\img\smiley-innocent.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\emoticons\img\smiley-kiss.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\emoticons\img\smiley-laughing.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\emoticons\img\smiley-money-mouth.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\emoticons\img\smiley-sealed.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\emoticons\img\smiley-smile.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\emoticons\img\smiley-surprised.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\emoticons\img\smiley-tongue-out.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\emoticons\img\smiley-undecided.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\emoticons\img\smiley-wink.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\emoticons\img\smiley-yell.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\emoticons\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\example\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\example_dependency\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\fullpage\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\fullscreen\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\hr\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\image\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\importcss\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\insertdatetime\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\layer\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\legacyoutput\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\link\plugin.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\link\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\lists\plugin.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\lists\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\media\moxieplayer.swf" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\media\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\nonbreaking\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\noneditable\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\pagebreak\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\paste\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\preview\plugin.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\preview\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\print\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\save\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\searchreplace\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\spellchecker\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\tabfocus\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\table\plugin.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\table\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\template\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\textcolor\plugin.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\textcolor\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\visualblocks\css\visualblocks.css" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\visualblocks\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\visualchars\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\plugins\wordcount\plugin.min.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\skins\lightgray\content.inline.min.css" />
+    <Content Include="NewDesign\scripts\libs\tinymce\skins\lightgray\content.min.css" />
+    <Content Include="NewDesign\scripts\libs\tinymce\skins\lightgray\fonts\tinymce-small.svg" />
+    <Content Include="NewDesign\scripts\libs\tinymce\skins\lightgray\fonts\tinymce.svg" />
+    <Content Include="NewDesign\scripts\libs\tinymce\skins\lightgray\img\anchor.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\skins\lightgray\img\loader.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\skins\lightgray\img\object.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\skins\lightgray\img\trans.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\skins\lightgray\img\wline.gif" />
+    <Content Include="NewDesign\scripts\libs\tinymce\skins\lightgray\skin.ie7.min.css" />
+    <Content Include="NewDesign\scripts\libs\tinymce\skins\lightgray\skin.min.css" />
+    <Content Include="NewDesign\scripts\libs\tinymce\themes\modern\theme.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\tinymce.js" />
+    <Content Include="NewDesign\scripts\libs\tinymce\tinymce_jquery.js" />
+    <Content Include="NewDesign\scripts\libs\underscore\underscore.js" />
+    <Content Include="NewDesign\scripts\makebridge.js" />
+    <Content Include="NewDesign\scripts\makebridge_data.js" />
+    <Content Include="scripts\libs\backbone\backbone.js" />
+    <Content Include="scripts\libs\custom\helper_methods.js" />
+    <Content Include="scripts\libs\custom\linq.min.js" />
+    <Content Include="scripts\libs\custom\makebridge_custom_methods.js" />
+    <Content Include="scripts\libs\jquery\jquery.js" />
+    <Content Include="scripts\libs\jquery\jquery_ui.js" />
+    <Content Include="scripts\libs\miniColor\jquery.minicolors.css" />
+    <Content Include="scripts\libs\miniColor\jquery.minicolors.min.js" />
+    <Content Include="scripts\libs\miniColor\jquery.minicolors.png" />
+    <Content Include="scripts\libs\tinymce\langs\readme.md" />
+    <Content Include="scripts\libs\tinymce\license.txt" />
+    <Content Include="scripts\libs\tinymce\plugins\advlist\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\anchor\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\autolink\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\autoresize\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\autosave\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\bbcode\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\charmap\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\code\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\contextmenu\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\directionality\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\emoticons\img\smiley-cool.gif" />
+    <Content Include="scripts\libs\tinymce\plugins\emoticons\img\smiley-cry.gif" />
+    <Content Include="scripts\libs\tinymce\plugins\emoticons\img\smiley-embarassed.gif" />
+    <Content Include="scripts\libs\tinymce\plugins\emoticons\img\smiley-foot-in-mouth.gif" />
+    <Content Include="scripts\libs\tinymce\plugins\emoticons\img\smiley-frown.gif" />
+    <Content Include="scripts\libs\tinymce\plugins\emoticons\img\smiley-innocent.gif" />
+    <Content Include="scripts\libs\tinymce\plugins\emoticons\img\smiley-kiss.gif" />
+    <Content Include="scripts\libs\tinymce\plugins\emoticons\img\smiley-laughing.gif" />
+    <Content Include="scripts\libs\tinymce\plugins\emoticons\img\smiley-money-mouth.gif" />
+    <Content Include="scripts\libs\tinymce\plugins\emoticons\img\smiley-sealed.gif" />
+    <Content Include="scripts\libs\tinymce\plugins\emoticons\img\smiley-smile.gif" />
+    <Content Include="scripts\libs\tinymce\plugins\emoticons\img\smiley-surprised.gif" />
+    <Content Include="scripts\libs\tinymce\plugins\emoticons\img\smiley-tongue-out.gif" />
+    <Content Include="scripts\libs\tinymce\plugins\emoticons\img\smiley-undecided.gif" />
+    <Content Include="scripts\libs\tinymce\plugins\emoticons\img\smiley-wink.gif" />
+    <Content Include="scripts\libs\tinymce\plugins\emoticons\img\smiley-yell.gif" />
+    <Content Include="scripts\libs\tinymce\plugins\emoticons\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\example\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\example_dependency\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\fullpage\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\fullscreen\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\hr\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\image\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\importcss\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\insertdatetime\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\layer\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\legacyoutput\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\link\plugin.js" />
+    <Content Include="scripts\libs\tinymce\plugins\link\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\lists\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\media\moxieplayer.swf" />
+    <Content Include="scripts\libs\tinymce\plugins\media\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\nonbreaking\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\noneditable\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\pagebreak\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\paste\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\preview\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\print\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\save\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\searchreplace\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\spellchecker\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\tabfocus\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\table\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\template\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\textcolor\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\visualblocks\css\visualblocks.css" />
+    <Content Include="scripts\libs\tinymce\plugins\visualblocks\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\visualchars\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\plugins\wordcount\plugin.min.js" />
+    <Content Include="scripts\libs\tinymce\skins\lightgray\content.inline.min.css" />
+    <Content Include="scripts\libs\tinymce\skins\lightgray\content.min.css" />
+    <Content Include="scripts\libs\tinymce\skins\lightgray\fonts\readme.md" />
+    <Content Include="scripts\libs\tinymce\skins\lightgray\fonts\tinymce-small.eot" />
+    <Content Include="scripts\libs\tinymce\skins\lightgray\fonts\tinymce-small.svg" />
+    <Content Include="scripts\libs\tinymce\skins\lightgray\fonts\tinymce-small.ttf" />
+    <Content Include="scripts\libs\tinymce\skins\lightgray\fonts\tinymce-small.woff" />
+    <Content Include="scripts\libs\tinymce\skins\lightgray\fonts\tinymce.eot" />
+    <Content Include="scripts\libs\tinymce\skins\lightgray\fonts\tinymce.svg" />
+    <Content Include="scripts\libs\tinymce\skins\lightgray\fonts\tinymce.ttf" />
+    <Content Include="scripts\libs\tinymce\skins\lightgray\fonts\tinymce.woff" />
+    <Content Include="scripts\libs\tinymce\skins\lightgray\img\anchor.gif" />
+    <Content Include="scripts\libs\tinymce\skins\lightgray\img\loader.gif" />
+    <Content Include="scripts\libs\tinymce\skins\lightgray\img\object.gif" />
+    <Content Include="scripts\libs\tinymce\skins\lightgray\img\trans.gif" />
+    <Content Include="scripts\libs\tinymce\skins\lightgray\img\wline.gif" />
+    <Content Include="scripts\libs\tinymce\skins\lightgray\skin.ie7.min.css" />
+    <Content Include="scripts\libs\tinymce\skins\lightgray\skin.min.css" />
+    <Content Include="scripts\libs\tinymce\themes\modern\theme.js" />
+    <Content Include="scripts\libs\tinymce\tinymce.js" />
+    <Content Include="scripts\libs\tinymce\tinymce_jquery.js" />
+    <Content Include="scripts\libs\toolbar\Gruntfile.js" />
+    <Content Include="scripts\libs\toolbar\jquery.toolbar.js" />
+    <Content Include="scripts\libs\toolbar\jquery.toolbar.min.js" />
+    <Content Include="scripts\libs\underscore\underscore.js" />
+    <Content Include="scripts\makebridge.js" />
+    <Content Include="scripts\makebridge_data.js" />
+    <Content Include="Service_BuildingBlock.asmx" />
+    <Content Include="MyService.asmx" />
+    <Content Include="test.asmx" />
+    <Content Include="index.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BuildingBlock.cs" />
+    <Compile Include="ImageCollection.cs" />
+    <Compile Include="ImageLibrary.asmx.cs">
+      <DependentUpon>ImageLibrary.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NewDesign\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewDesign\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service_BuildingBlock.asmx.cs">
+      <DependentUpon>Service_BuildingBlock.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ImageModel.cs" />
+    <Compile Include="MyService.asmx.cs">
+      <DependentUpon>MyService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="test.asmx.cs">
+      <DependentUpon>test.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="NewDesign\fonts\proximanova-bold-webfont.eot" />
+    <Content Include="NewDesign\fonts\proximanova-bold-webfont.ttf" />
+    <Content Include="NewDesign\fonts\proximanova-bold-webfont.woff" />
+    <Content Include="NewDesign\fonts\proximanova-light-webfont.eot" />
+    <Content Include="NewDesign\fonts\proximanova-light-webfont.ttf" />
+    <Content Include="NewDesign\fonts\proximanova-light-webfont.woff" />
+    <Content Include="NewDesign\fonts\proximanova-regular-webfont.eot" />
+    <Content Include="NewDesign\fonts\proximanova-regular-webfont.ttf" />
+    <Content Include="NewDesign\fonts\proximanova-regular-webfont.woff" />
+    <Content Include="NewDesign\fonts\proximanova-semibold-webfont.eot" />
+    <Content Include="NewDesign\fonts\proximanova-semibold-webfont.ttf" />
+    <Content Include="NewDesign\fonts\proximanova-semibold-webfont.woff" />
+    <Content Include="NewDesign\scripts\libs\tinymce\langs\readme.md" />
+    <Content Include="NewDesign\scripts\libs\tinymce\skins\lightgray\fonts\readme.md" />
+    <Content Include="NewDesign\scripts\libs\tinymce\skins\lightgray\fonts\tinymce-small.eot" />
+    <Content Include="NewDesign\scripts\libs\tinymce\skins\lightgray\fonts\tinymce-small.ttf" />
+    <Content Include="NewDesign\scripts\libs\tinymce\skins\lightgray\fonts\tinymce-small.woff" />
+    <Content Include="NewDesign\scripts\libs\tinymce\skins\lightgray\fonts\tinymce.eot" />
+    <Content Include="NewDesign\scripts\libs\tinymce\skins\lightgray\fonts\tinymce.ttf" />
+    <Content Include="NewDesign\scripts\libs\tinymce\skins\lightgray\fonts\tinymce.woff" />
+    <Content Include="NewDesign\scripts\makebridge.js.bak" />
+    <Content Include="NewDesign\scripts\makebridge_data.js.bak" />
+    <Content Include="NewDesign\index.jsp" />
+    <None Include="Properties\PublishProfiles\MakeBridge.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewDesign\scripts\libs\toolbar\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61642</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48674/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

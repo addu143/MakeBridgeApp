@@ -1,0 +1,55 @@
+D:\projects\Projects\MakeBridge\bin\MakeBridge.dll
+D:\projects\Projects\MakeBridge\bin\MakeBridge.pdb
+D:\projects\Projects\MakeBridge\obj\Debug\MakeBridge.csprojResolveAssemblyReference.cache
+D:\projects\Projects\MakeBridge\obj\Debug\MakeBridge.dll
+D:\projects\Projects\MakeBridge\obj\Debug\MakeBridge.pdb
+C:\Users\Saleem\Desktop\MakeBridge_test\MakeBridge\bin\MakeBridge.dll
+C:\Users\Saleem\Desktop\MakeBridge_test\MakeBridge\bin\MakeBridge.pdb
+C:\Users\Saleem\Desktop\MakeBridge_test\MakeBridge\obj\Debug\MakeBridge.dll
+C:\Users\Saleem\Desktop\MakeBridge_test\MakeBridge\obj\Debug\MakeBridge.pdb
+C:\Users\Saleem\Desktop\MakeBridge_test\MakeBridge\obj\Debug\MakeBridge.csprojResolveAssemblyReference.cache
+D:\projects\Projects\MakeBridge\MakeBridge\bin\MakeBridge.dll
+D:\projects\Projects\MakeBridge\MakeBridge\bin\MakeBridge.pdb
+D:\projects\Projects\MakeBridge\MakeBridge\obj\Debug\MakeBridge.csprojResolveAssemblyReference.cache
+D:\projects\Projects\MakeBridge\MakeBridge\obj\Debug\MakeBridge.dll
+D:\projects\Projects\MakeBridge\MakeBridge\obj\Debug\MakeBridge.pdb
+C:\Windows\Help\code\MakeBridge\MakeBridge\bin\MakeBridge.dll
+C:\Windows\Help\code\MakeBridge\MakeBridge\bin\MakeBridge.pdb
+C:\Windows\Help\code\MakeBridge\MakeBridge\obj\Debug\MakeBridge.dll
+C:\Windows\Help\code\MakeBridge\MakeBridge\obj\Debug\MakeBridge.pdb
+F:\MakeBridge\MakeBridge\bin\MakeBridge.dll
+F:\MakeBridge\MakeBridge\bin\MakeBridge.pdb
+F:\MakeBridge\MakeBridge\obj\Debug\MakeBridge.csprojResolveAssemblyReference.cache
+F:\MakeBridge\MakeBridge\obj\Debug\MakeBridge.dll
+F:\MakeBridge\MakeBridge\obj\Debug\MakeBridge.pdb
+C:\Users\Sarmad\Desktop\12082013\MakeBridge\MakeBridge\obj\Debug\MakeBridge.csprojResolveAssemblyReference.cache
+C:\Users\Sarmad\Desktop\12082013\MakeBridge\MakeBridge\obj\Debug\MakeBridge.dll
+C:\Users\Sarmad\Desktop\12082013\MakeBridge\MakeBridge\bin\MakeBridge.dll
+C:\Users\Sarmad\Desktop\12082013\MakeBridge\MakeBridge\bin\MakeBridge.pdb
+C:\Users\Sarmad\Desktop\12082013\MakeBridge\MakeBridge\obj\Debug\MakeBridge.pdb
+C:\Users\Sohaib\Documents\MakeBridge\bin\MakeBridge.dll
+C:\Users\Sohaib\Documents\MakeBridge\bin\MakeBridge.pdb
+C:\Users\Sohaib\Documents\MakeBridge\obj\Debug\MakeBridge.csprojResolveAssemblyReference.cache
+C:\Users\Sohaib\Documents\MakeBridge\obj\Debug\MakeBridge.dll
+C:\Users\Sohaib\Documents\MakeBridge\obj\Debug\MakeBridge.pdb
+C:\Users\Sarmad\Desktop\12092013\MakeBridge\MakeBridge\bin\MakeBridge.dll
+C:\Users\Sarmad\Desktop\12092013\MakeBridge\MakeBridge\bin\MakeBridge.pdb
+C:\Users\Sarmad\Desktop\12092013\MakeBridge\MakeBridge\obj\Debug\MakeBridge.dll
+C:\Users\Sarmad\Desktop\12092013\MakeBridge\MakeBridge\obj\Debug\MakeBridge.pdb
+C:\Users\Sarmad\Desktop\12092013\MakeBridge\MakeBridge\obj\Debug\MakeBridge.csprojResolveAssemblyReference.cache
+D:\projects\Projects\MakeBridge\MakeBridge\MakeBridge\bin\MakeBridge.dll
+D:\projects\Projects\MakeBridge\MakeBridge\MakeBridge\bin\MakeBridge.pdb
+D:\projects\Projects\MakeBridge\MakeBridge\MakeBridge\obj\Debug\MakeBridge.csprojResolveAssemblyReference.cache
+D:\projects\Projects\MakeBridge\MakeBridge\MakeBridge\obj\Debug\MakeBridge.dll
+D:\projects\Projects\MakeBridge\MakeBridge\MakeBridge\obj\Debug\MakeBridge.pdb
+D:\projects\Projects\MakeBridge\MakeBridge - JSServer\MakeBridge\bin\MakeBridge.dll
+D:\projects\Projects\MakeBridge\MakeBridge - JSServer\MakeBridge\bin\MakeBridge.pdb
+D:\projects\Projects\MakeBridge\MakeBridge - JSServer\MakeBridge\obj\Debug\MakeBridge.csprojResolveAssemblyReference.cache
+D:\projects\Projects\MakeBridge\MakeBridge - JSServer\MakeBridge\obj\Debug\MakeBridge.dll
+D:\projects\Projects\MakeBridge\MakeBridge - JSServer\MakeBridge\obj\Debug\MakeBridge.pdb
+D:\projects\Projects\MakeBridge\MakeBridge - Latest\MakeBridge\bin\MakeBridge.dll
+D:\projects\Projects\MakeBridge\MakeBridge - Latest\MakeBridge\bin\MakeBridge.pdb
+D:\projects\Projects\MakeBridge\MakeBridge - Latest\MakeBridge\obj\Debug\MakeBridge.csprojResolveAssemblyReference.cache
+D:\projects\Projects\MakeBridge\MakeBridge - Latest\MakeBridge\obj\Debug\MakeBridge.dll
+D:\projects\Projects\MakeBridge\MakeBridge - Latest\MakeBridge\obj\Debug\MakeBridge.pdb
+D:\projects\Projects\MakeBridge\MakeBridge - Latest\MakeBridge\bin\MakeBridge.dll.config

@@ -1,0 +1,782 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AddLinkScreen.html">
+      <publishTime>12/15/2013 19:21:33</publishTime>
+    </File>
+    <File Include="AddUpdateTags.html">
+      <publishTime>01/01/2014 16:55:22</publishTime>
+    </File>
+    <File Include="bin/MakeBridge.dll">
+      <publishTime>01/14/2014 18:08:55</publishTime>
+    </File>
+    <File Include="controls.html">
+      <publishTime>11/22/2013 02:02:22</publishTime>
+    </File>
+    <File Include="css/bootstrap.icons.css">
+      <publishTime>11/09/2013 18:36:30</publishTime>
+    </File>
+    <File Include="css/images/animated-overlay.gif">
+      <publishTime>11/01/2013 02:44:52</publishTime>
+    </File>
+    <File Include="css/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>11/01/2013 02:44:52</publishTime>
+    </File>
+    <File Include="css/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>11/01/2013 02:44:52</publishTime>
+    </File>
+    <File Include="css/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>11/01/2013 02:44:52</publishTime>
+    </File>
+    <File Include="css/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>11/01/2013 02:44:52</publishTime>
+    </File>
+    <File Include="css/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>11/01/2013 02:44:52</publishTime>
+    </File>
+    <File Include="css/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>11/01/2013 02:44:52</publishTime>
+    </File>
+    <File Include="css/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>11/01/2013 02:44:52</publishTime>
+    </File>
+    <File Include="css/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>11/01/2013 02:44:52</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_222222_256x240.png">
+      <publishTime>11/01/2013 02:44:52</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>11/01/2013 02:44:52</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_454545_256x240.png">
+      <publishTime>11/01/2013 02:44:52</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_888888_256x240.png">
+      <publishTime>11/01/2013 02:44:52</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>11/01/2013 02:44:52</publishTime>
+    </File>
+    <File Include="css/jquery-ui.css">
+      <publishTime>12/25/2013 19:37:32</publishTime>
+    </File>
+    <File Include="css/jquery.toolbars.css">
+      <publishTime>08/06/2013 06:17:30</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>01/17/2014 18:48:49</publishTime>
+    </File>
+    <File Include="css/styles.css">
+      <publishTime>01/17/2014 22:13:54</publishTime>
+    </File>
+    <File Include="ImageLibrary.asmx">
+      <publishTime>12/07/2013 18:53:28</publishTime>
+    </File>
+    <File Include="images/10-pixel-spacer.png">
+      <publishTime>12/18/2013 01:43:54</publishTime>
+    </File>
+    <File Include="images/15-pxl-spacer.png">
+      <publishTime>12/18/2013 01:43:30</publishTime>
+    </File>
+    <File Include="images/1col-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/20-pxl-spacer.png">
+      <publishTime>12/18/2013 01:44:14</publishTime>
+    </File>
+    <File Include="images/2col-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/3col-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/4col-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/5-pixel-spacers.png">
+      <publishTime>12/18/2013 01:43:02</publishTime>
+    </File>
+    <File Include="images/accordion-arrow.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/add-ico.png">
+      <publishTime>12/20/2013 00:40:04</publishTime>
+    </File>
+    <File Include="images/Adobe_Premiere_Pro_Title.png">
+      <publishTime>11/24/2013 16:28:42</publishTime>
+    </File>
+    <File Include="images/anchor.png">
+      <publishTime>12/15/2013 19:10:30</publishTime>
+    </File>
+    <File Include="images/anchor_1.png">
+      <publishTime>12/15/2013 19:10:39</publishTime>
+    </File>
+    <File Include="images/arrow-uploadbox.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/background-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/black-color.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/bold-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/border-placing.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/borders-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/building_block_ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/bullet-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/cancel-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/car-img.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/center-align-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/checkbox-background.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/Chrysanthemum.png">
+      <publishTime>11/01/2013 01:22:16</publishTime>
+    </File>
+    <File Include="images/color-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/color-pallette.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/color-picker.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/content_ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/content_ico_active.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/copy.png">
+      <publishTime>11/21/2013 22:48:04</publishTime>
+    </File>
+    <File Include="images/custom-blocks.png">
+      <publishTime>11/29/2013 10:14:36</publishTime>
+    </File>
+    <File Include="images/delete-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/delete.png">
+      <publishTime>11/21/2013 22:48:04</publishTime>
+    </File>
+    <File Include="images/Desert.png">
+      <publishTime>11/01/2013 01:22:16</publishTime>
+    </File>
+    <File Include="images/double_optIn.png">
+      <publishTime>12/15/2013 19:07:56</publishTime>
+    </File>
+    <File Include="images/drop-here.png">
+      <publishTime>11/01/2013 01:22:16</publishTime>
+    </File>
+    <File Include="images/dynamic-content-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/email-width-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/font-color-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/font-face-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/font-size-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/forward-icon1.gif">
+      <publishTime>12/15/2013 19:03:51</publishTime>
+    </File>
+    <File Include="images/forward_to_friend.gif">
+      <publishTime>12/15/2013 19:03:31</publishTime>
+    </File>
+    <File Include="images/grey-color.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/grid-ico-hover.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/grid-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/home-ico-hover.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/home-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/html-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/Hydrangeas.png">
+      <publishTime>11/01/2013 01:22:16</publishTime>
+    </File>
+    <File Include="images/icon-box.gif">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/icon-container.png">
+      <publishTime>11/01/2013 01:22:18</publishTime>
+    </File>
+    <File Include="images/icon-format.gif">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/icon-format2.gif">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/icon-format3.gif">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/icon-image.png">
+      <publishTime>11/01/2013 01:22:18</publishTime>
+    </File>
+    <File Include="images/icon-imageText.png">
+      <publishTime>11/01/2013 01:22:18</publishTime>
+    </File>
+    <File Include="images/icon-text.png">
+      <publishTime>11/01/2013 01:22:18</publishTime>
+    </File>
+    <File Include="images/icon-textImage.png">
+      <publishTime>11/01/2013 01:22:18</publishTime>
+    </File>
+    <File Include="images/icon_alt.gif">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/icon_globe.gif">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/Image-align-center-icon.png">
+      <publishTime>11/23/2013 14:28:18</publishTime>
+    </File>
+    <File Include="images/Image-align-left-icon.png">
+      <publishTime>11/23/2013 14:28:18</publishTime>
+    </File>
+    <File Include="images/Image-align-right-icon.png">
+      <publishTime>11/23/2013 14:28:18</publishTime>
+    </File>
+    <File Include="images/image-li-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/image-library-ico.png">
+      <publishTime>12/09/2013 02:24:58</publishTime>
+    </File>
+    <File Include="images/img-txt-li-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/img1.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/img2.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/img3.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/img4.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/italic-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/Jellyfish.png">
+      <publishTime>11/01/2013 01:22:18</publishTime>
+    </File>
+    <File Include="images/justified-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/Koala.jpg">
+      <publishTime>11/01/2013 01:22:18</publishTime>
+    </File>
+    <File Include="images/left-align-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/leftBack.png">
+      <publishTime>11/01/2013 01:22:18</publishTime>
+    </File>
+    <File Include="images/li-1-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/line-display-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/link-arrow-hover.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/link-arrow.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/link-Document.png">
+      <publishTime>12/15/2013 19:11:39</publishTime>
+    </File>
+    <File Include="images/links-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/list-view--hover-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/list-view-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/mail-ico-hover.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/mail-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/manage-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/mobile-view-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/move.png">
+      <publishTime>11/21/2013 22:48:04</publishTime>
+    </File>
+    <File Include="images/move_handle.png">
+      <publishTime>11/04/2013 02:08:06</publishTime>
+    </File>
+    <File Include="images/my_building_ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/nocolor-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/padding-placing.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/redo-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/right-align-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/safeSender.png">
+      <publishTime>12/15/2013 19:09:22</publishTime>
+    </File>
+    <File Include="images/sample.jpg">
+      <publishTime>11/01/2013 01:22:18</publishTime>
+    </File>
+    <File Include="images/save-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/search_button.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/search_ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/solid.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/special-banner.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/styles_ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/styles_ico_active.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/table-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/tag-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/test-ico-hover.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/test-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/text-img-li-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/text-li-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/trans.png">
+      <publishTime>11/17/2013 23:03:32</publishTime>
+    </File>
+    <File Include="images/ui-icons_454545_256x240.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/ui-icons_888888_256x240.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/underline-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/undo-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/unsubscribe.png">
+      <publishTime>12/15/2013 19:05:25</publishTime>
+    </File>
+    <File Include="images/upload-images/img1.png">
+      <publishTime>12/25/2013 20:54:11</publishTime>
+    </File>
+    <File Include="images/upload-images/img2.png">
+      <publishTime>12/07/2013 20:28:38</publishTime>
+    </File>
+    <File Include="images/upload-images/img3.png">
+      <publishTime>12/07/2013 20:28:38</publishTime>
+    </File>
+    <File Include="images/upload-images/img4.png">
+      <publishTime>12/07/2013 20:28:38</publishTime>
+    </File>
+    <File Include="images/upload-img-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/upload-status-bar.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/user-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/view-ico.png">
+      <publishTime>12/09/2013 02:24:59</publishTime>
+    </File>
+    <File Include="images/viewInBrowser.png">
+      <publishTime>12/15/2013 19:06:35</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>12/09/2013 04:11:50</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>01/18/2014 19:53:22</publishTime>
+    </File>
+    <File Include="MyService.asmx">
+      <publishTime>12/06/2013 15:46:22</publishTime>
+    </File>
+    <File Include="Properties/Settings.settings">
+      <publishTime>11/29/2013 16:58:54</publishTime>
+    </File>
+    <File Include="scripts/libs/backbone/backbone.js">
+      <publishTime>09/18/2013 17:52:46</publishTime>
+    </File>
+    <File Include="scripts/libs/custom/helper_methods.js">
+      <publishTime>11/01/2013 00:48:46</publishTime>
+    </File>
+    <File Include="scripts/libs/custom/linq.min.js">
+      <publishTime>11/30/2013 19:38:56</publishTime>
+    </File>
+    <File Include="scripts/libs/custom/makebridge_custom_methods.js">
+      <publishTime>01/14/2014 15:31:28</publishTime>
+    </File>
+    <File Include="scripts/libs/jquery/jquery.js">
+      <publishTime>09/18/2013 17:51:40</publishTime>
+    </File>
+    <File Include="scripts/libs/jquery/jquery_ui.js">
+      <publishTime>11/01/2013 01:24:18</publishTime>
+    </File>
+    <File Include="scripts/libs/miniColor/jquery.minicolors.css">
+      <publishTime>01/17/2014 14:37:14</publishTime>
+    </File>
+    <File Include="scripts/libs/miniColor/jquery.minicolors.min.js">
+      <publishTime>01/17/2014 21:34:10</publishTime>
+    </File>
+    <File Include="scripts/libs/miniColor/jquery.minicolors.png">
+      <publishTime>09/30/2013 10:54:40</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/langs/readme.md">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/license.txt">
+      <publishTime>11/01/2013 02:03:12</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/advlist/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/anchor/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/autolink/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/autoresize/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/autosave/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/bbcode/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/charmap/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/code/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/contextmenu/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/directionality/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/emoticons/img/smiley-cool.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/emoticons/img/smiley-cry.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/emoticons/img/smiley-embarassed.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/emoticons/img/smiley-frown.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/emoticons/img/smiley-innocent.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/emoticons/img/smiley-kiss.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/emoticons/img/smiley-laughing.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/emoticons/img/smiley-money-mouth.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/emoticons/img/smiley-sealed.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/emoticons/img/smiley-smile.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/emoticons/img/smiley-surprised.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/emoticons/img/smiley-tongue-out.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/emoticons/img/smiley-undecided.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/emoticons/img/smiley-wink.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/emoticons/img/smiley-yell.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/emoticons/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/example/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/example_dependency/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/fullpage/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/fullscreen/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/hr/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/image/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/importcss/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/insertdatetime/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/layer/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/legacyoutput/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/link/plugin.js">
+      <publishTime>12/08/2013 00:32:53</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/link/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/lists/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/media/moxieplayer.swf">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/media/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/nonbreaking/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/noneditable/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/pagebreak/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/paste/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/preview/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/print/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/save/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/searchreplace/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/spellchecker/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/tabfocus/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/table/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/template/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/textcolor/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/visualblocks/css/visualblocks.css">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/visualblocks/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/visualchars/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/plugins/wordcount/plugin.min.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/skins/lightgray/content.inline.min.css">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/skins/lightgray/content.min.css">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/skins/lightgray/fonts/readme.md">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/skins/lightgray/fonts/tinymce-small.eot">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/skins/lightgray/fonts/tinymce-small.svg">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/skins/lightgray/fonts/tinymce-small.ttf">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/skins/lightgray/fonts/tinymce-small.woff">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/skins/lightgray/fonts/tinymce.eot">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/skins/lightgray/fonts/tinymce.svg">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/skins/lightgray/fonts/tinymce.ttf">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/skins/lightgray/fonts/tinymce.woff">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/skins/lightgray/img/anchor.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/skins/lightgray/img/loader.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/skins/lightgray/img/object.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/skins/lightgray/img/trans.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/skins/lightgray/img/wline.gif">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/skins/lightgray/skin.ie7.min.css">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/skins/lightgray/skin.min.css">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/themes/modern/theme.js">
+      <publishTime>10/24/2013 14:09:46</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/tinymce.js">
+      <publishTime>11/01/2013 02:03:12</publishTime>
+    </File>
+    <File Include="scripts/libs/tinymce/tinymce_jquery.js">
+      <publishTime>11/01/2013 02:03:12</publishTime>
+    </File>
+    <File Include="scripts/libs/toolbar/Gruntfile.js">
+      <publishTime>11/16/2013 21:47:32</publishTime>
+    </File>
+    <File Include="scripts/libs/toolbar/jquery.toolbar.js">
+      <publishTime>11/16/2013 22:23:26</publishTime>
+    </File>
+    <File Include="scripts/libs/toolbar/jquery.toolbar.min.js">
+      <publishTime>11/16/2013 22:24:42</publishTime>
+    </File>
+    <File Include="scripts/libs/underscore/underscore.js">
+      <publishTime>10/12/2013 17:06:16</publishTime>
+    </File>
+    <File Include="scripts/makebridge.js">
+      <publishTime>01/18/2014 19:56:18</publishTime>
+    </File>
+    <File Include="scripts/makebridge_data.js">
+      <publishTime>12/25/2013 20:36:42</publishTime>
+    </File>
+    <File Include="Service_BuildingBlock.asmx">
+      <publishTime>11/29/2013 21:07:32</publishTime>
+    </File>
+    <File Include="test.asmx">
+      <publishTime>12/06/2013 15:46:22</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/18/2014 23:49:40</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
